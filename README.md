@@ -24,3 +24,6 @@ systemctl enable docker
 
 git clone https://github.com/pabloroodrigueez/PASIR
 
+docker-compose build
+docker-compose up
+
