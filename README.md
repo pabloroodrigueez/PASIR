@@ -1,6 +1,10 @@
 # PASIR
 En este repositorio podras encontrar dos carpetas que en las cuales hay un servidor web Apache con una pagina diferente en cada uno para hacer una demostracion con un balanceador de cargas.
 
+sudo passwd root
+su -
+apt update
+
 https://voidnull.es/instalacion-de-docker-en-debian-12/
 
 apt install software-properties-common apt-transport-https ca-certificates curl gnupg lsb-release
@@ -17,3 +21,6 @@ apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
 systemctl status docker
 systemctl enable docker
+
+git clone https://github.com/pabloroodrigueez/PASIR
+
