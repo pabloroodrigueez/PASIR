@@ -1,11 +1,14 @@
 # PASIR
 En este repositorio podras encontrar dos carpetas que en las cuales hay un servidor web Apache con una pagina diferente en cada uno para hacer una demostracion con un balanceador de cargas.
 
+
+TUTORIAL PARA INSTALAR DOCKER DESDE 0 EN DEBIAN 12 
+EXTRAIDO DE -> https://voidnull.es/instalacion-de-docker-en-debian-12/
+
 sudo passwd root
 su -
-apt update
 
-https://voidnull.es/instalacion-de-docker-en-debian-12/
+apt update
 
 apt install software-properties-common apt-transport-https ca-certificates curl gnupg lsb-release
 
